@@ -1,0 +1,184 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6be5584858.js" crossorigin="anonymous"></script>
+ </head>
+ <body>
+
+ <!-- ------------home------------- -->
+
+ <div id="header" >
+    <div class="container">
+        <nav>
+            <img src="images/logo.png.jpeg" class="logo" height="40" width="100">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Certificates">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>TE Computer Science Student</p>
+            <h1>Hi, I'm <span>Shweta Nadar </span></h1>
+        </div>
+    </div>
+ </div>
+
+ <!-- ------------about------------- -->
+ 
+ <div id="About">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png.jpeg" height="500" width="350">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello there! I am Shweta Nadar, a passionate third-year computer science student at Don Bosco Institute of Technology.  I appreciate the practical applications of computer science in today's world. My focus lies in understanding the fundamentals and applying them to real-world scenarios.<br>
+                    I believe in the power of innovation and enjoy solving complex problems through creative and efficient solutions.<br><br>
+                    
+                    Apart from my academic pursuits, I am an avid learner and enjoy working in teams to bring ideas to life. I value creativity, teamwork, and problem-solving. I am open to diverse opportunities that allow me to explore the intersections of technology with other fields.<br><br>
+                    
+                    My goal is to contribute meaningfully to the field of computer science and make a positive impact on the world through technology. I am excited about the endless possibilities that the digital world offers and am always open to new opportunities and challenges.<br><br>
+                    
+                    Thank you for visiting my portfolio! Feel free to explore and know more about my journey!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Programming Skills:</span><br>C/C++,SQL</li>
+                            <li><span>Web Development Skills:</span><br>HTML,CSS</li>
+                            <li><span>Computer Skills:</span><br>MS Office,Word,Excel,Powerpoint,Forms</li>
+                            <li><span>Other Skills:</span><br>Leadership Quality <br>Team Work <br>Time Management and Multitasking<br>Problem-solving and Critical thinking<br>Work-Oriented<br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2023:</span><br>Public-Relation Head of ACM</li>
+                            <li><span>2023:</span><br>Leader of National Service Scheme(NSS-DBIT)</li>
+                            <li><span>2022:</span><br>Assistant Secretary of ACM</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Degree: 2021-2025</span><br>Don Bosco Institute of Technology</li>
+                            <li><span>Junior College: 2021</span><br>I.D.U.B.S Junior College</li>
+                            <li><span>School: 2019</span><br>Pawar Public School</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+ </div>
+ 
+ <!-- ----------Certificates-------------- -->
+
+ <div id="Certificates">
+    <div class="container">
+        <h1 class="sub-title">My Certificates</h1>
+        <div class="Certificates-list">
+            <div class="Certificates">
+                <img src="images/Certi1.png.jpg">
+                <div class="layer">
+                    <h3>Scrum Fundamentals Certification</h3>
+                    <p>Certified in Scrum Fundamentals, I excel in agile project management, ensuring efficient and collaborative project delivery.</p>
+                    <a href="#"></a><i class="fa-solid fa-eye"></i></a>
+                </div>
+            </div>
+
+            <div class="Certificates">
+                <img src="images/Certi2.png.jpg">
+                <div class="layer">
+                    <h3>SQL for Data Science course certification</h3>
+                    <p>Skilled in database management and data analysis, with a focus on practical applications for informed decision-making.</p>
+                    <a href="#"></a><i class="fa-solid fa-eye"></i></a>
+                </div>
+            </div>
+
+            <div class="Certificates">
+                <img src="images/Certi3.png.jpeg">
+                <div class="layer">
+                    <h3>Certificate of Appreciation: Assistant Secretary, ACM</h3>
+                    <p>Recognized for exemplary leadership and organizational skills as Assistant Secretary in ACM-DBIT, contributing significantly to the chapter's success.</p>
+                    <a href="#"></a><i class="fa-solid fa-eye"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#"class="btn">See more</a>
+
+    </div>
+ </div>
+
+ <!-- ----------------contact----------------- -->
+ 
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>shwetanadar06@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/shweta-nadar-b4b3b3268/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/_shwetzzz._/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/shwetanadar06"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <a href="" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="Email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © ShwetaNadar. <i class="fa-solid fa-heart"></i></p>
+    </div>
+ </div>
+
+ <script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+
+ </script>
+ <script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right ="0";
+    }
+    function closemenu(){
+        sidemenu.style.right ="-250px";
+    }
+ </script>
+       
+ </body>
+ </html>
